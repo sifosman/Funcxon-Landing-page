@@ -22,6 +22,7 @@ const categories = [
     items: "DJs, Musicians, Dancers, Comedians, Magicians",
     color: "from-violet-500 to-purple-600",
     bg: "bg-violet-50",
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=80",
   },
   {
     icon: UtensilsCrossed,
@@ -29,6 +30,7 @@ const categories = [
     items: "Caterers, Chefs, Bartenders, Baristas, Bakers",
     color: "from-orange-500 to-red-500",
     bg: "bg-orange-50",
+    image: "https://images.unsplash.com/photo-1555244162-803834f70033?w=600&q=80",
   },
   {
     icon: Users,
@@ -36,6 +38,7 @@ const categories = [
     items: "Ushers, Servers, Setup Crews, Parking Attendants",
     color: "from-blue-500 to-cyan-500",
     bg: "bg-blue-50",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
   },
   {
     icon: Palette,
@@ -43,6 +46,7 @@ const categories = [
     items: "Designers, Florists, Stylists, Makeup Artists",
     color: "from-pink-500 to-rose-500",
     bg: "bg-pink-50",
+    image: "https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=600&q=80",
   },
   {
     icon: Wrench,
@@ -50,6 +54,7 @@ const categories = [
     items: "Sound Engineers, Lighting, IT Support, Electricians",
     color: "from-slate-500 to-gray-600",
     bg: "bg-slate-50",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&q=80",
   },
   {
     icon: Camera,
@@ -57,6 +62,7 @@ const categories = [
     items: "Photographers, Videographers, Drone Operators",
     color: "from-amber-500 to-yellow-500",
     bg: "bg-amber-50",
+    image: "https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=600&q=80",
   },
   {
     icon: ClipboardList,
@@ -64,6 +70,7 @@ const categories = [
     items: "Planners, Coordinators, Emcees, Consultants",
     color: "from-emerald-500 to-green-500",
     bg: "bg-emerald-50",
+    image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&q=80",
   },
   {
     icon: Shield,
@@ -71,6 +78,7 @@ const categories = [
     items: "Security, Medical, Transport, Officiants",
     color: "from-teal-500 to-cyan-600",
     bg: "bg-teal-50",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80",
   },
 ];
 
@@ -128,23 +136,31 @@ export default function Categories() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.4, delay: i * 0.06 }}
-              className="group relative rounded-2xl bg-surface p-5 border border-border-subtle/50 hover:border-transparent shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden cursor-pointer"
+              className="group relative rounded-2xl bg-surface border border-border-subtle/50 hover:border-transparent shadow-sm hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 overflow-hidden cursor-pointer"
             >
-              {/* Gradient overlay on hover */}
-              <div
-                className={`absolute inset-0 bg-gradient-to-br ${cat.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
-              />
-
-              <div className="relative z-10">
+              {/* Category image */}
+              <div className="relative h-32 overflow-hidden">
+                <img
+                  src={cat.image}
+                  alt={`${cat.name} events`}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                
+                {/* Icon overlay */}
                 <div
-                  className={`w-11 h-11 rounded-xl ${cat.bg} group-hover:bg-white/20 flex items-center justify-center mb-3 transition-colors duration-500`}
+                  className={`absolute top-3 right-3 w-10 h-10 rounded-xl ${cat.bg} group-hover:bg-white/20 flex items-center justify-center transition-colors duration-500`}
                 >
                   <cat.icon className="w-5 h-5 text-text-primary group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="font-[var(--font-playfair)] text-base font-semibold text-text-primary group-hover:text-white mb-1.5 transition-colors duration-500">
+              </div>
+
+              {/* Content */}
+              <div className="p-5">
+                <h3 className="font-[var(--font-playfair)] text-base font-semibold text-text-primary mb-1.5">
                   {cat.name}
                 </h3>
-                <p className="text-xs text-text-muted group-hover:text-white/80 leading-relaxed transition-colors duration-500">
+                <p className="text-xs text-text-muted leading-relaxed">
                   {cat.items}
                 </p>
               </div>

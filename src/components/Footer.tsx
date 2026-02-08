@@ -46,11 +46,11 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary">
-                <span className="font-[var(--font-playfair)] text-lg font-bold text-white">
-                  F
-                </span>
-              </div>
+              <img
+                src="/funcxon-icon.png"
+                alt="Funcxon"
+                className="h-9 w-9 rounded-xl object-cover"
+              />
               <span className="font-[var(--font-playfair)] text-xl font-bold text-white">
                 Funcxon
               </span>

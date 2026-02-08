@@ -37,11 +37,11 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary">
-              <span className="font-[var(--font-playfair)] text-lg font-bold text-white">
-                F
-              </span>
-            </div>
+            <img
+              src="/funcxon-icon.png"
+              alt="Funcxon"
+              className="h-9 w-9 rounded-xl object-cover"
+            />
             <span className="font-[var(--font-playfair)] text-xl font-bold text-text-primary">
               Funcxon
             </span>

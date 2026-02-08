@@ -12,6 +12,7 @@ const testimonials = [
     rating: 5,
     avatar: "NM",
     color: "bg-pink-100 text-pink-700",
+    image: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80",
   },
   {
     name: "James K.",
@@ -20,6 +21,7 @@ const testimonials = [
     rating: 5,
     avatar: "JK",
     color: "bg-blue-100 text-blue-700",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
   },
   {
     name: "Thandi S.",
@@ -28,6 +30,7 @@ const testimonials = [
     rating: 5,
     avatar: "TS",
     color: "bg-purple-100 text-purple-700",
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80",
   },
   {
     name: "Ravi P.",
@@ -36,6 +39,7 @@ const testimonials = [
     rating: 5,
     avatar: "RP",
     color: "bg-amber-100 text-amber-700",
+    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80",
   },
   {
     name: "Zanele D.",
@@ -44,6 +48,7 @@ const testimonials = [
     rating: 5,
     avatar: "ZD",
     color: "bg-emerald-100 text-emerald-700",
+    image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80",
   },
   {
     name: "Marco B.",
@@ -52,6 +57,7 @@ const testimonials = [
     rating: 5,
     avatar: "MB",
     color: "bg-teal-100 text-teal-700",
+    image: "https://images.unsplash.com/photo-1587825140708-dfaf18c4c5ad?w=600&q=80",
   },
 ];
 
@@ -94,38 +100,51 @@ export default function Testimonials() {
               initial={{ opacity: 0, y: 40 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group relative bg-surface rounded-2xl p-6 border border-border-subtle/50 hover:border-primary/20 shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group relative bg-surface rounded-2xl border border-border-subtle/50 hover:border-primary/20 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
-              {/* Quote icon */}
-              <Quote className="w-8 h-8 text-primary/10 mb-3" />
-
-              {/* Stars */}
-              <div className="flex gap-0.5 mb-3">
-                {Array.from({ length: t.rating }).map((_, idx) => (
-                  <Star
-                    key={idx}
-                    className="w-4 h-4 text-yellow-500 fill-yellow-500"
-                  />
-                ))}
+              {/* Event image background */}
+              <div className="relative h-32 overflow-hidden">
+                <img
+                  src={t.image}
+                  alt={`${t.role} event`}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/90 to-transparent" />
               </div>
 
-              {/* Text */}
-              <p className="text-sm text-text-secondary leading-relaxed mb-5">
-                &ldquo;{t.text}&rdquo;
-              </p>
+              {/* Content */}
+              <div className="p-6">
+                {/* Quote icon */}
+                <Quote className="w-8 h-8 text-primary/10 mb-3" />
 
-              {/* Author */}
-              <div className="flex items-center gap-3">
-                <div
-                  className={`w-10 h-10 rounded-full ${t.color} flex items-center justify-center text-sm font-bold`}
-                >
-                  {t.avatar}
+                {/* Stars */}
+                <div className="flex gap-0.5 mb-3">
+                  {Array.from({ length: t.rating }).map((_, idx) => (
+                    <Star
+                      key={idx}
+                      className="w-4 h-4 text-yellow-500 fill-yellow-500"
+                    />
+                  ))}
                 </div>
-                <div>
-                  <p className="text-sm font-semibold text-text-primary">
-                    {t.name}
-                  </p>
-                  <p className="text-xs text-text-muted">{t.role}</p>
+
+                {/* Text */}
+                <p className="text-sm text-text-secondary leading-relaxed mb-5">
+                  &ldquo;{t.text}&rdquo;
+                </p>
+
+                {/* Author */}
+                <div className="flex items-center gap-3">
+                  <div
+                    className={`w-10 h-10 rounded-full ${t.color} flex items-center justify-center text-sm font-bold`}
+                  >
+                    {t.avatar}
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-text-primary">
+                      {t.name}
+                    </p>
+                    <p className="text-xs text-text-muted">{t.role}</p>
+                  </div>
                 </div>
               </div>
             </motion.div>

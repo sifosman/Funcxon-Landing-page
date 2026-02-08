@@ -113,6 +113,41 @@ export default function Features() {
           </p>
         </motion.div>
 
+        {/* Hero image showcase */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mb-16"
+        >
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80", title: "Perfect Weddings", desc: "From intimate ceremonies to grand celebrations" },
+              { src: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80", title: "Corporate Events", desc: "Professional conferences and team building" },
+              { src: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80", title: "Private Parties", desc: "Birthday celebrations and special occasions" }
+            ].map((event, i) => (
+              <motion.div
+                key={event.title}
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                transition={{ duration: 0.5, delay: 0.4 + i * 0.1 }}
+                className="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer"
+              >
+                <img
+                  src={event.src}
+                  alt={event.title}
+                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <h4 className="text-white font-semibold text-lg mb-1">{event.title}</h4>
+                  <p className="text-white/80 text-sm">{event.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
         {/* Features grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, i) => (

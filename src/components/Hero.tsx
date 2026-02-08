@@ -97,7 +97,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Right column - phone mockup */}
+          {/* Right column - hero image + phone mockup */}
           <motion.div
             initial={{ opacity: 0, x: 60 }}
             animate={{ opacity: 1, x: 0 }}
