@@ -24,9 +24,9 @@ const footerLinks = {
     { label: "Blog", href: "#" },
   ],
   Legal: [
-    { label: "Terms of Service", href: "#" },
-    { label: "Privacy Policy", href: "#" },
-    { label: "Cookie Policy", href: "#" },
+    { label: "Terms of Service", href: "/terms-of-service" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Cookie Policy", href: "/cookie-policy" },
   ],
   Support: [
     { label: "Help Centre", href: "#" },

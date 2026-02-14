@@ -1,0 +1,341 @@
+﻿Funcxon App — Terms & Conditions (South Africa Compliant) 
+
+Last Updated: 05 December 2025 
+
+These Terms and Conditions ("Terms") govern the use of the Funcxon mobile application, 
+website, platform, and all related services (collectively, the "Platform"). By accessing, 
+registering, browsing, or transacting on the Platform, all users — including consumers, vendors, 
+service providers, event organisers, developers, and subscribers — agree to be bound by these 
+Terms. 
+
+These Terms are designed to comply with all applicable South African laws, including but not 
+limited to: 
+
+• The Consumer Protection Act 68 of 2008 (CPA) 
+
+• The Protection of Personal Information Act 4 of 2013 (POPIA) 
+
+• The Electronic Communications and Transactions Act 25 of 2002 (ECTA) 
+
+• The Copyright Act 98 of 1978 
+
+• The Companies Act 71 of 2008 
+
+• Applicable contract, commercial, and common law principles in South Africa 
+
+Any policies legally required to be displayed separately (e.g., Privacy Policy, PAIA Manual, 
+Cookies Policy) will be provided as standalone documents. All other matters are contained 
+herein. 
+
+ 
+1. DEFINITIONS 
+
+• “Funcxon/We/Us/Our”: The company owning and operating the Funcxon Platform. 
+
+• “User”: Any person accessing or using the Platform, including consumers and vendors. 
+
+• “Vendor/Service Provider”: A business or individual listing products/services for 
+booking or sale on the Platform. 
+
+• “Subscriber”: Any vendor/service provider paying for listing packages. 
+
+• “Client/Customer”: Any user booking or purchasing a vendor’s services. 
+
+• “Content”: All information, media, images, videos, documents, messages, reviews, and 
+data uploaded to the Platform. 
+
+• “Developer”: Any authorised individual contracted to maintain, update, or enhance the 
+Platform. 
+
+ 
+2. ACCEPTANCE OF TERMS 
+
+By using the Platform, you: 
+
+• Confirm you are 18 years or older. 
+
+
+
+• Confirm you have read, understood, and agreed to these Terms. 
+
+• Consent to the processing of personal information in line with POPIA. 
+
+• Agree to any additional terms displayed during specific transactions (e.g., payments, 
+promotions). 
+
+If you do not agree with any part of the Terms, you must discontinue use of the Platform 
+immediately. 
+
+ 
+3. PLATFORM DESCRIPTION 
+
+Funcxon is a marketplace and directory platform connecting clients with vendors in the events 
+industry. Funcxon: 
+
+• Does not own any vendor businesses. 
+
+• Is not party to agreements between vendors and clients. 
+
+• Provides tools, listings, catalogues, calendars, payment features, and communication 
+features. 
+
+• Is not responsible for execution of services by vendors. 
+
+ 
+4. USER OBLIGATIONS 
+
+4.1 Accurate Information 
+
+All users must provide: 
+
+• Accurate personal or business details 
+
+• Valid contact information 
+
+• Updated payment details (where applicable) 
+
+False or fraudulent information is strictly prohibited. 
+
+4.2 Responsible Use 
+
+Users may not: 
+
+• Upload illegal, defamatory, harmful, hateful, pornographic, or copyrighted content.  
+
+• Misrepresent identity or business. 
+
+• Attempt to hack, modify, disrupt, or reverse-engineer the Platform. 
+
+• Use the Platform for any unlawful purpose. 
+
+4.3 Account Security 
+
+Users are responsible for: 
+
+• Maintaining confidentiality of login details. 
+
+
+
+• All activity under their account. 
+
+• Informing Funcxon immediately of suspicious access. 
+
+ 
+5. VENDOR/SUBSCRIBER TERMS 
+
+5.1 Listings & Content 
+
+Vendors are solely responsible for: 
+
+• The accuracy of all listings. 
+
+• Images, videos, pricing, availability calendars, catalogues, business profiles. 
+
+• Compliance with South African business and tax laws. 
+
+Funcxon may remove any listing violating policy or law. 
+
+5.2 Subscriptions & Payments 
+
+• Subscription fees are billed per the selected package. 
+
+• Fees are non-refundable unless required by law. 
+
+• Non-payment may result in suspension or removal. 
+
+5.3 Vendor Performance 
+
+Vendors must: 
+
+• Honour bookings. 
+
+• Deliver agreed services/products. 
+
+• Communicate professionally with clients. 
+
+Funcxon is not liable for vendor actions or inactions. 
+
+ 
+6. CLIENT/CUSTOMER TERMS 
+
+Clients acknowledge that: 
+
+• Vendors are independent businesses. 
+
+• Funcxon is not responsible for vendor quality, conduct, cancellations, or disputes. 
+
+• Clients must verify suitability of vendors before booking. 
+
+ 
+7. BOOKINGS, PAYMENTS & FEES 
+
+7.1 Marketplace Interactions 
+
+• Bookings may occur via direct vendor contact or through in-app booking features. 
+
+• Payment methods may include EFT, card payments, or third-party processors. 
+
+
+
+7.2 Payment Processing 
+
+• Payments may be processed by authorised third-party payment gateways. 
+
+• Funcxon does not store credit card information. 
+
+7.3 Refunds 
+
+Refunds are governed by: 
+
+• Vendor’s individual refund policy 
+
+• CPA requirements (where applicable) 
+
+Funcxon does not issue refunds for vendor services. 
+
+ 
+8. CONTENT OWNERSHIP & LICENSES 
+
+8.1 User Content 
+
+Users retain copyright over uploaded content. However, by uploading, users grant Funcxon: 
+
+• A non-exclusive, worldwide licence to display, reproduce, and distribute the content 
+solely within the Platform. 
+
+8.2 Funcxon Intellectual Property 
+
+All Funcxon branding, logos, software, UI/UX, features, and databases belong exclusively to 
+Funcxon and may not be copied, reverse-engineered, or used without permission. 
+
+ 
+9. PRIVACY COMPLIANCE (POPIA) 
+
+Funcxon will: 
+
+• Collect only necessary personal information. 
+
+• Use information for platform functionality. 
+
+• Secure all data with appropriate safeguards. 
+
+• Never sell personal data. 
+
+Personal data may be shared with: 
+
+• Vendors (to fulfil bookings) 
+
+• Payment processors 
+
+• Legal authorities when required 
+
+ 
+10. COMMUNICATION POLICY 
+
+Funcxon may send users: 
+
+• Booking updates 
+
+
+
+• Payment confirmations 
+
+• System notifications 
+
+• Marketing (with consent) 
+
+Users may opt out of marketing at any time. 
+
+ 
+11. REVIEWS & RATINGS 
+
+Users agree to: 
+
+• Post fair, truthful reviews. 
+
+• Refrain from harassment, defamation, or extortion. 
+
+Funcxon may remove or moderate reviews violating the Terms. 
+
+ 
+12. LIMITATION OF LIABILITY 
+
+To the maximum extent allowed by law, Funcxon is not liable for: 
+
+• Losses due to vendor actions or negligence 
+
+• Event failures, cancellations, delays 
+
+• Financial disputes between clients and vendors 
+
+• Internet outages or technical disruptions 
+
+• Loss of data beyond our reasonable control 
+
+Users indemnify Funcxon against claims arising from their use of the Platform. 
+
+ 
+13. SUSPENSION & TERMINATION 
+
+Funcxon may suspend or terminate accounts for: 
+
+• Violations of these Terms 
+
+• Illegal activity 
+
+• Fraud 
+
+• Abuse of the Platform 
+
+Users may delete their accounts at any time. 
+
+ 
+14. DEVELOPER RIGHTS & RESPONSIBILITIES 
+
+Developers working for Funcxon: 
+
+• Must maintain confidentiality 
+
+
+
+• May not copy, share, or re-use Funcxon code or systems 
+
+• Must adhere to cybercrime and IP law 
+
+• Are bound by NDAs and internal agreements 
+
+ 
+15. UPDATES TO TERMS 
+
+Funcxon may update these Terms periodically. Users will be notified of material changes, and 
+continued use constitutes acceptance. 
+
+ 
+16. GOVERNING LAW 
+
+These Terms are governed by South African law. Disputes must first be attempted through 
+mediation before formal legal action. 
+
+ 
+17. CONTACT INFORMATION 
+
+For queries, complaints, or legal notices: 
+Funcxon Legal & Compliance Department 
+Email: zulaykab@gmail.com 
+Registered Address: 46 Alhambra Place, Roshnee, Vereeniging, Gauteng, South Africa, 1936 
+
+ 
+18. SEPARATE LEGALLY MANDATED POLICIES 
+
+The following will appear as separate documents: 
+
+• POPIA-compliant Privacy Policy 
+
+• PAIA Manual 
+
+• Cookie Policy 
+
+• Refund Policy 
+
+ 
+By using Funcxon, you confirm acceptance of these Terms & Conditions.
